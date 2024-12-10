@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;700&family=Instrument+Serif&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #fffeef;
+            font-family: Arial, sans-serif;
+        }
+
+        .nav-link {
+            color: #1475CA !important;
+            text-decoration: none;
+            padding: 0 8px !important;
+            display: inline-block;
+        }
+        .nav-link:not(:last-child)::after {
+            content: '|';
+            margin-left: 16px;
+        }
+
+
+        .header-name {
+            color: #1475CA;
+            font-weight: normal;
+            font-family: 'Instrument Sans', sans-serif;
+            font-weight:600;
+            font-size: 1.2rem;
+        }
+
+        .header-title {
+            color: #1475CA;
+            font-size: 0.8rem;
+            font-family: 'Instrument Sans', sans-serif;
+            font-weight:600;
+        }
+
+        .header-padding {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .graphic-design-title {
+            size: 170px;
+            font-size: 4rem;
+            color: #1475CA;
+            font-family: 'Instrument Serif', serif;
+            font-weight:  
+            966px;
+        }
+        
+        .karigari-title {
+            font-family: 'Instrument Serif', serif;
+            font-size: 3.5rem;
+            color: #1475CA;
+            margin-bottom: 1rem;
+        }
+        
+        .subtitle {
+            font-family: 'Instrument Sans', sans-serif;
+            font-weight:600;
+            color: #1475CA;
+            font-size: 0.9rem;
+        }
+        
+        .portfolio-item {
+            font-family: 'Instrument Serif', serif;
+            background: #1475CA;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        
+        .portfolio-image {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        
+        .tag {
+            font-family: 'Instrument Sans', sans-serif;
+            font-weight:600;
+            size: 10px;
+            color: #1475CA;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid px-4 mt-4">
+        <!-- Header -->
+        <header class="d-flex justify-content-between align-items-start mb-5 header-padding">
+            <div>
+                <h2 class="header-name m-0">DHRUVI AGRAWAL</h2>
+                <p class="header-title">Communication<br>Designer</p>
+            </div>
+            <nav>
+                <a href="home.html" class="nav-link">HOME</a>
+                <a href="#" class="nav-link">CONNECT</a>    
+                <a href="#" class="nav-link">WORK</a>
+            </nav>
+        </header>
+
+        <main class="container py-5">
+            <section class="text-center mb-5">
+                <h1 class="graphic-design-title mb-3">Graphic Design</h1><div class="tag">BRANDING | PUBLICATION | SOCIAL MEDIA</div>
+            
+            </section>
+    
+            <section class="mb-5">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="karigari-title">Karigari</h2>
+                        <p class="subtitle mb-4">Branding & Packaging</p>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="portfolio-item">
+                            <img src="/placeholder.svg?height=300&width=400" alt="Brand Logo" class="portfolio-image mb-3">
+                            <h5>Logo Design</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="portfolio-item">
+                            <img src="/placeholder.svg?height=300&width=400" alt="Brand Mark" class="portfolio-image mb-3">
+                            <h5>Brand Mark</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="portfolio-item">
+                            <img src="/placeholder.svg?height=300&width=400" alt="Packaging Design" class="portfolio-image mb-3">
+                            <h5>Packaging</h5>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    
+    </div>
+</body>
+</html>
+
